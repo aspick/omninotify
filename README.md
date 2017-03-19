@@ -21,6 +21,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+Omninotify.config do
+  target SomeService.new('token')
+end
+
 Omninotify.notify("awesome action fired!")
 ```
 
